@@ -18,7 +18,7 @@
                     <div class="col-md-4">
                         <h2>{{$product['header']}}</h2>
                         <p>{{$product['content']}} </p>
-                        <p><a class="btn btn-secondary" href="#" role="button">{{$product['button']}}</a></p>
+                        <p><a class="btn btn-secondary" href="products/{{$loop->index}}" role="button">{{$product['button']}}</a></p>
                     </div>
                     @empty
                     No products
